@@ -1,3 +1,6 @@
+#ifndef PATIENT_H_
+#define pATIENT_H_
+
 #include <iostream>
 #include <string>
 
@@ -46,3 +49,5 @@ public:
 		return;
 	}
 };
+
+#endif

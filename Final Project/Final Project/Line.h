@@ -1,3 +1,6 @@
+#ifndef LINE_H_
+#define LINE_H_
+
 #include "Records.h"
 #include <map>
 using namespace std;
@@ -20,3 +23,5 @@ public:
 		return;
 	}
 };
+
+#endif

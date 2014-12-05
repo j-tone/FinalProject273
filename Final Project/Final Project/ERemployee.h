@@ -1,3 +1,6 @@
+#ifndef EREMPLOYEE_H_
+#define EREMPLOYEE_H_
+
 #include "Patient.h"
 #include <ctime>
 #include <cstdlib>
@@ -77,3 +80,5 @@ public:
 		}
 	}
 };
+
+#endif

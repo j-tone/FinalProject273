@@ -1,3 +1,6 @@
+#ifndef RECORDS_H_
+#define RECORDS_H_
+
 #include "Patient.h"
 #include <queue>
 using namespace std;
@@ -43,3 +46,5 @@ public:
 		}
 	}
 };
+
+#endif

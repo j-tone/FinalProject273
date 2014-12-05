@@ -1,3 +1,6 @@
+#ifndef EMERGENCYROOM_H_
+#define EMERGENCYROOM_H_
+
 #include "Line.h"
 #include "ERemployee.h"
 #include <vector>
@@ -126,3 +129,5 @@ public:
 		}
 	}
 };
+
+#endif
