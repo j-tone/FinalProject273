@@ -1,0 +1,25 @@
+﻿Build started 12/4/2014 3:03:35 PM.
+     1>Project "Z:\CS273\Final Project\Final Project\Final Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>z:\cs273\final project\final project\patient.h(6): error C2011: 'Patient' : 'class' type redefinition
+                 z:\cs273\final project\final project\patient.h(6) : see declaration of 'Patient'
+     1>z:\cs273\final project\final project\eremployee.h(27): error C2027: use of undefined type 'Patient'
+                 z:\cs273\final project\final project\patient.h(6) : see declaration of 'Patient'
+     1>z:\cs273\final project\final project\eremployee.h(27): error C2227: left of '->gettimeReleased' must point to class/struct/union/generic type
+     1>z:\cs273\final project\final project\eremployee.h(28): error C2664: 'void Records::Add(Patient)' : cannot convert argument 1 from 'Patient' to 'Patient'
+                 Source or target has incomplete type
+     1>z:\cs273\final project\final project\eremployee.h(33): error C2027: use of undefined type 'Patient'
+                 z:\cs273\final project\final project\patient.h(6) : see declaration of 'Patient'
+     1>z:\cs273\final project\final project\eremployee.h(33): error C2227: left of '->getENTEREDseverity' must point to class/struct/union/generic type
+     1>z:\cs273\final project\final project\emergencyroom.h(36): error C2059: syntax error : '}'
+     1>z:\cs273\final project\final project\source.cpp(6): error C2039: 'srand' : is not a member of 'Nurse'
+                 z:\cs273\final project\final project\eremployee.h(51) : see declaration of 'Nurse'
+     1>z:\cs273\final project\final project\source.cpp(6): error C2039: 'time' : is not a member of 'Nurse'
+                 z:\cs273\final project\final project\eremployee.h(51) : see declaration of 'Nurse'
+     1>Done Building Project "Z:\CS273\Final Project\Final Project\Final Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.38
